@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/nequi2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/nequi"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NequiApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Movimientos"
+            android:exported="false" />
+        <activity
+            android:name=".numAleatorio"
+            android:exported="false" />
+        <activity
+            android:name=".Recargar"
+            android:exported="false" />
+        <activity
+            android:name=".Servicios"
+            android:exported="false" />
+        <activity
+            android:name=".Enviar"
+            android:exported="false" />
+        <activity
+            android:name=".Retirar"
+            android:exported="false" />
+        <activity
+            android:name=".CodigoAcceso"
+            android:exported="false" />
+        <activity
+            android:name=".PanelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
